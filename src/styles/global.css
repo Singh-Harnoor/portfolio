@@ -1,0 +1,51 @@
+/* src/styles/global.css */
+
+:root {
+    --font-primary: 'Orbitron', sans-serif;
+    --color-bg-dark: #000000;
+    --color-text-main: #ffffff;
+    --color-text-secondary: #a1a1aa;
+    --color-accent: #6366f1; /* indigo-500 */
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-primary);
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-main);
+    scroll-behavior: smooth;
+  }
+
+  h1{
+    color: var(--color-text-main);
+    font-weight: 700;
+    font-size: 20Vh;
+    text-align: center;
+
+  }
+
+  p1{
+    color: var(--color-text-main);
+    font-weight: 500;
+    font-size: 3vh;
+    text-align: center;
+
+  }
+  
+  h2, h3, h4, h5, h6 {
+    color: var(--color-text-main);
+    font-weight: 700;
+  }
+  
+  p {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+
