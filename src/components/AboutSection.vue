@@ -101,17 +101,43 @@
     justify-content: flex-start;
     width: 100%;
   }
+
+    /* Mobile layout: stack image and text vertically */
+    @media only screen and (max-width: 768px) {
+    .about-card {
+        flex-direction: column;
+        gap: 2rem; /* reduce gap for mobile */
+        align-items: center; /* center contents */
+    }
+
+    .about-image {
+        width: 100%; /* Make image full width on mobile */
+    }
+
+    .about-text {
+        text-align: center; /* Optional: center text for better visual */
+        padding: 0 0rem;
+    }
+
+
+    }
   
   .about-text {
     flex: 1 1 70%;
     color: #f1f1f1;
   }
   
-  .about-text .headline {
-    font-size: 2.8rem;
-    margin-bottom: 1.5rem;
-    color: #00c8bb;
-  }
+    .about-text .headline {
+        font-size: 2.8rem;
+        margin-bottom: 1.5rem;
+        color: #00c8bb;
+    }
+  
+    @media only screen and (max-width: 600px) {
+    .about-text .headline{
+        font-size: 1.2rem; /* smaller size for mobile */
+    }
+    }
   
   .intro,
   .story,
@@ -121,6 +147,14 @@
     margin-bottom: 1.4rem;
     color: #ccc;
   }
+
+  @media only screen and (max-width: 600px) {
+    .intro,
+    .story,
+    .quote {
+        font-size: 1rem; /* smaller size for mobile */
+    }
+    }
   
   .highlight {
     color: #00c8bb;
@@ -163,6 +197,8 @@
     box-shadow: 0 0 24px rgba(0, 255, 242, 0.1);
     background: transparent;
   }
+
+  
   </style>
   
   

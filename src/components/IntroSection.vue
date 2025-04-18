@@ -109,6 +109,12 @@
   font-family: 'Bold Apex', sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  .caption {
+    font-size: 1.2rem; /* smaller size for mobile */
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
