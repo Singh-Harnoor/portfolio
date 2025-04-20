@@ -21,7 +21,7 @@
           <!-- AI with EA  -->
           <div class="videplayer" v-if="selectedProject.title === 'AI with Emotional Analysis for SIBOS Conference'">
             <video width="100%" controls>
-              <source src="../assets/sibos.3gp" type="video/mp4" />
+              <source src="../assets/sibos.3gp" type="video/3gpp" />
               Your browser does not support the video tag.
             </video>
           </div>
