@@ -3,6 +3,7 @@
     <ParticleBackground />
     <IntroSection />
     <AboutSection />
+    <ExploreAIosSection />
     <ProjectsSection />
     <SkillsSection />
     <ExperienceSection />
@@ -14,6 +15,7 @@
 import ParticleBackground from './components/ParticleBackground.vue';
 import IntroSection from './components/IntroSection.vue';
 import AboutSection from './components/AboutSection.vue';
+import ExploreAIosSection from "./components/ExploreAIosSection.vue";
 import ProjectsSection from './components/ProjectsSection.vue';
 import SkillsSection from './components/SkillsSection.vue';
 import ExperienceSection from './components/ExperienceSection.vue';
@@ -25,6 +27,7 @@ export default {
     ParticleBackground,
     IntroSection,
     AboutSection,
+    ExploreAIosSection,
     ProjectsSection,
     SkillsSection,
     ExperienceSection,
