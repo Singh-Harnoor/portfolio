@@ -5,7 +5,7 @@
           <div class="about-card">
             <div class="about-image">
               <div class="image-background">
-                <img src="../assets/Noor_3d.png" alt="Harnoor Profile" />
+                <img :src="require('../assets/Noor_3d.png')" alt="Harnoor Profile" />
               </div>
             </div>
             <div class="about-text">
