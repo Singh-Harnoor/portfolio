@@ -19,12 +19,13 @@
   
   <style scoped>
   .explore-aios-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0a0a0a;
-  }
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../assets/aiOS.png') no-repeat center center/cover;
+}
+
   
   .explore-btn {
     padding: 18px 42px;
