@@ -9,13 +9,13 @@
               </div>
             </div>
             <div class="about-text">
-              <h2 class="headline">Who is Harnoor?</h2>
+              <h2 class="headline">Harnoor</h2>
               <p class="intro">
-                A creative technologist. A visionary. A problem-solver. <br />
-                <span class="highlight">Harnoor Singh</span> is not just a developer — he's a <strong>bridge between aesthetic and logic</strong>.
+                Creative technologist. Visionary. Problem-solver. <br />
+                <span class="highlight">I</span> am not just a developer, I <strong>bridge between aesthetic and logic</strong>.
               </p>
               <p class="story">
-                With a background in Computer Science, AI engineering, and luxury fashion design, Harnoor has redefined what it means to be a multi-hyphenate creator in the modern world. From building intelligent systems that can feel your emotions to constructing handcrafted couture fashion campaigns, he thrives in paradoxes — the elegant and the efficient, the abstract and the applied.
+                With a background in Computer Science, AI engineering, and luxury fashion design, I have redefined what it means to be a multi-hyphenate creator in the modern world. From building intelligent systems that can feel your emotions to constructing handcrafted couture campaigns, I thrive in paradoxes; the elegant and the efficient, the abstract and the applied.
               </p>
               <p class="quote">“Innovation starts where convention ends.”</p>
             </div>
